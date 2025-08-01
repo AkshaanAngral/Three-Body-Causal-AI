@@ -34,6 +34,8 @@ Our pipeline comprises:
 * **Latent Space Discovery:** All three learned latent dimensions (`latent_0`, `latent_1`, `latent_2`) exhibited **statistically significant differences (p < 0.05)** between clean and perturbed systems.
 
 ## Project Structure
+
+```
 Three-Body-Causal-AI/
 ├── .git/
 ├── .gitignore
@@ -41,31 +43,31 @@ Three-Body-Causal-AI/
 ├── README.md
 ├── requirements.txt
 └── three_body_causal_ai/
-├── causal/
-│   └── causal_discovery.py
-├── data/
-│   ├── clean/
-│   └── perturbed/
-├── model/
-│   ├── checkpoints/
-│   │   ├── anti_overfitting_best.pth
-│   │   └── robust_scaler.pkl
-│   └── overfitting_solution.py
-├── notebooks/
-│   ├── analyze_model.py
-│   └── data_analyzer.py
-├── results/
-│   ├── causal_analysis/
-│   ├── latent_analysis/
-│   └── (analysis summaries, plots)
-└── simulation/
-└── simulator_fixed.py
-
+    ├── causal/
+    │   └── causal_discovery.py
+    ├── data/
+    │   ├── clean/
+    │   └── perturbed/
+    ├── model/
+    │   ├── checkpoints/
+    │   │   ├── anti_overfitting_best.pth
+    │   │   └── robust_scaler.pkl
+    │   └── overfitting_solution.py
+    ├── notebooks/
+    │   ├── analyze_model.py
+    │   └── data_analyzer.py
+    ├── results/
+    │   ├── causal_analysis/
+    │   ├── latent_analysis/
+    │   └── (analysis summaries, plots)
+    └── simulation/
+        └── simulator_fixed.py
+```
 
 ## Setup and Usage
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/Three-Body-Causal-AI.git](https://github.com/your-username/Three-Body-Causal-AI.git)
+    git clone [https://github.com/AkshaanAngral/Three-Body-Causal-AI.git](https://github.com/AkshaanAngral/Three-Body-Causal-AI.git)
     cd Three-Body-Causal-AI
     ```
 2.  **Create a virtual environment (recommended):**
