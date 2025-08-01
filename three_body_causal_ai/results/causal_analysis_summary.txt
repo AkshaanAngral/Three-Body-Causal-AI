@@ -1,0 +1,30 @@
+THREE-BODY CAUSAL DISCOVERY RESULTS
+==================================================
+
+Total data segments analyzed: 1496
+Latent dimensions: 3
+Causal graph nodes: 41
+Causal graph edges: 190
+Significant feature differences: 17
+Granger causal links found: 1101
+
+Significant Feature Differences (p < 0.05):
+- body2_pos_range_z: p=0.000000, Effect=0.327, Clean_mean=1.9259, Pert_mean=2.8040
+- body1_avg_speed: p=0.000009, Effect=0.308, Clean_mean=1.5638, Pert_mean=1.8291
+- body1_pos_range_y: p=0.000445, Effect=-0.235, Clean_mean=0.1525, Pert_mean=0.1305
+- body0_pos_range_z: p=0.000503, Effect=0.240, Clean_mean=0.0596, Pert_mean=0.0728
+- body1_max_speed: p=0.000740, Effect=0.212, Clean_mean=3.3242, Pert_mean=3.9482
+- body2_avg_distance: p=0.002169, Effect=0.199, Clean_mean=1.6921, Pert_mean=1.8603
+- body1_speed_std: p=0.002524, Effect=0.184, Clean_mean=0.7734, Pert_mean=0.9354
+- body2_speed_std: p=0.007027, Effect=0.163, Clean_mean=0.5364, Pert_mean=0.6513
+- latent_0: p=0.007316, Effect=0.145, Clean_mean=-0.0932, Pert_mean=-0.0028
+- body2_distance_std: p=0.010152, Effect=0.155, Clean_mean=0.7783, Pert_mean=0.9155
+- body1_distance_std: p=0.011578, Effect=-0.166, Clean_mean=0.0630, Pert_mean=0.0571
+- body2_max_speed: p=0.014828, Effect=0.146, Clean_mean=2.6587, Pert_mean=3.0104
+- body0_distance_std: p=0.020852, Effect=0.138, Clean_mean=0.0521, Pert_mean=0.0560
+- body2_avg_speed: p=0.022213, Effect=0.136, Clean_mean=1.4474, Pert_mean=1.5607
+- latent_2: p=0.031520, Effect=0.151, Clean_mean=0.2405, Pert_mean=0.3628
+- body2_max_distance: p=0.032278, Effect=0.134, Clean_mean=3.5353, Pert_mean=3.9283
+- latent_1: p=0.042089, Effect=0.132, Clean_mean=0.3729, Pert_mean=0.5317
+
+Correlation Graph (Threshold=0.3): Check causal_graph_enhanced.png

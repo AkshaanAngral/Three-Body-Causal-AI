@@ -1,0 +1,35 @@
+ENHANCED THREE-BODY CAUSAL DISCOVERY RESULTS
+============================================================
+
+Total data segments analyzed: 1496
+Latent dimensions: 3
+Causal graph nodes: 41
+Causal graph edges: 190
+Significant feature differences: 17
+Granger causal links found: 1101
+
+Enhanced Visualizations Created:
+- Enhanced 3D latent space plots with multiple views
+- 3D trajectory evolution visualization
+- Enhanced 2D causal graph with improved styling
+- 3D multi-layer causal graph visualization
+- Probability-colored 3D scatter plots
+
+Significant Feature Differences (p < 0.05):
+- body2_pos_range_z: p=0.000000, Effect=0.327
+- body1_avg_speed: p=0.000009, Effect=0.308
+- body1_pos_range_y: p=0.000445, Effect=-0.235
+- body0_pos_range_z: p=0.000503, Effect=0.240
+- body1_max_speed: p=0.000740, Effect=0.212
+- body2_avg_distance: p=0.002169, Effect=0.199
+- body1_speed_std: p=0.002524, Effect=0.184
+- body2_speed_std: p=0.007027, Effect=0.163
+- latent_0: p=0.007316, Effect=0.145
+- body2_distance_std: p=0.010152, Effect=0.155
+- body1_distance_std: p=0.011578, Effect=-0.166
+- body2_max_speed: p=0.014828, Effect=0.146
+- body0_distance_std: p=0.020852, Effect=0.138
+- body2_avg_speed: p=0.022213, Effect=0.136
+- latent_2: p=0.031520, Effect=0.151
+- body2_max_distance: p=0.032278, Effect=0.134
+- latent_1: p=0.042089, Effect=0.132
